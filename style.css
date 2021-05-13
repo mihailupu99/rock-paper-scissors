@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+body{
+    font-family: 'Goblin One';
+    background-color: #2a9d8f;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#yourscore{
+    float:left;
+}
+
+#computerscore{
+    float:right;
+    margin-right: 50px;
+}
+
+#rock, #paper, #scissors {
+    border: solid;
+}
+
+#rock:hover {
+    height: 250px;
+    width: 250px
+}
+
+#paper:hover {
+    height: 250px;
+    width: 250px
+}
+
+#scissors:hover {
+    height: 250px;
+    width: 250px
+}
+
+
+#player{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+#playgame {
+    text-align:center;
+}

@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Rock, Paper, Scissors!</h1>
+    <div id="playgame">
+        <p id="computerchoice">Computer Choose:</p>
+        <img id="computerchoiceimg" src="paper.png">
+        <p id="yourchoice">You Choose:</p>
+        <img id="yourchoiceimg" src="rock.png">
+
+
+    </div>  
+    <div id="player">
+    <div class="container">  
+    <p id="yourscore">Your Score: <span id="human">0</span></p>
+    <p id="computerscore">Computer Score: <span id="computer">0</span></p>
+    </div> 
+    <input type="image"  id="rock" onClick="getId(this)" src="rock.png">
+    <input type="image"  id="paper" onClick="getId(this)" src="paper.png">
+    <input type="image"  id="scissors" onClick="getId(this)" src="scissors.png">
+   
+</div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
